@@ -1,10 +1,7 @@
-<h1 align="center"><b>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</b></h1>
+<h1 align="center"><b>🚩 আসসালামু আলাইকুম  🚩</b></h1>
 
-<p align="center">
-  <img src="https://github.com/DreamXBotz/Pics/blob/main/dreamxbotz.jpg" alt="DreamxBotz Logo">
-</p>
 
-<h1 align="center">𝓓𝓻𝓮𝓪𝓶𝔁𝓑𝓸𝓽𝔃</h1>
+<h1 align="center">Movixuniverse</h1>
 
 ---
 
