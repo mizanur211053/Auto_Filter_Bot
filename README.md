@@ -7,7 +7,7 @@
 
 ## 👤 Owner
 
-[![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://t.me/Deendayal_Support_Group)
+[![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://t.me/Mizanur_Rahman41)
 
 ---
 
@@ -19,7 +19,7 @@
 
 Try the live bot here:
 
-[![Click Here](https://img.shields.io/badge/Demo%20Bot-Click%20Here-blue?style=flat&logo=telegram&labelColor=white)](https://t.me/Princess_V4_bot)
+[![Click Here](https://img.shields.io/badge/Demo%20Bot-Click%20Here-blue?style=flat&logo=telegram&labelColor=white)](https://t.me/Movixuniversr)
 
 ---
 
@@ -34,11 +34,7 @@ Try the live bot here:
 
 ## 🙏 Special Thanks To
 
-- 🌴 [⌯ Ꭺɴᴏɴʏᴍᴏᴜꜱ | ×͜× |](https://t.me/BeingXAnonymous)
-- 🌴 [⌯ ᴢɪsʜᴀɴ | ×͜× |](https://t.me/IM_JISSHU)
-- 🌴 [⌯ ʙʜᴀʀᴀᴛʜ | ×͜× |](https://t.me/Bharath_boy)
-- 🌴 [Harshal Purohit Edits](https://github.com/HarshalPurohitEdits)
-- 🌴 [Support Group](https://t.me/Deendayal_Support_Group)
+- 🌴 [Support Group](https://t.me/Movixuniverse_Group)
 
 ---
 
@@ -46,7 +42,7 @@ Try the live bot here:
 
 Join our support group for assistance:
 
-[![Join Support Group](https://img.shields.io/badge/Join%20Support%20Group-Click%20Here-blue?style=flat&logo=telegram&labelColor=white)](https://t.me/Deendayal_Support_Group)
+[![Join Support Group](https://img.shields.io/badge/Join%20Support%20Group-Click%20Here-blue?style=flat&logo=telegram&labelColor=white)](https://t.me/Movixuniverse_Group)
 
 ---
 
@@ -89,7 +85,7 @@ Join our support group for assistance:
 - ✅ Auto Delete Old Files  
 - ✅ …and more!
 
-📌 *To stay updated with all new features, join our [Updates Channel](https://t.me/dreamxbotz).*
+📌 *To stay updated with all new features, join our [Updates Channel](https://t.me/Movixuniverse).*
 
 ---
 
@@ -137,8 +133,8 @@ Use at your own discretion and **always respect platform rules and copyrights**.
 
 ## 📜 License
 
-This project is licensed under the [MIT License](https://github.com/MrRaazz/DreamxBotz/blob/main/LICENSE)
+This project is licensed under the [MIT License](https://github.com)
 
 ---
 
-<p align="center"><b>Jai Shree Krishna 🙏😉</b></p>
+<p align="center"><b>ধন্যবাদ🙏😉</b></p>
