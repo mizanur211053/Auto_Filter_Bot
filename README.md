@@ -7,7 +7,7 @@ sdk: docker
 app_file: bot.py
 pinned: false
 ---
-<h1 align="center"><b>🚩 আসসালামু আলাইকুম  🚩</b></h1>
+<h1 align="center"><b> আসসালামু আলাইকুম  </b></h1>
 
 
 <h1 align="center">Movixuniverse</h1>
