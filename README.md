@@ -1,3 +1,12 @@
+---
+title: Movixuniverse Search Bot
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_file: bot.py
+pinned: false
+---
 <h1 align="center"><b>🚩 আসসালামু আলাইকুম  🚩</b></h1>
 
 
