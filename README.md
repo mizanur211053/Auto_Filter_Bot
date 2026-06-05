@@ -10,7 +10,7 @@ pinned: false
 <h1 align="center"><b>আসসালামু আলাইকুম</b></h1>
 
 <p align="center">
-  <img src="https://i.postimg.cc/DZX1pKYT/IMG-20260605-165451.png" alt="Movixuniverse Logo">
+  <img src="https://mizanur211053.github.io/Logo/" alt="Movixuniverse Logo">
 </p>
 
 <h1 align="center">Movixuniverse</h1>
