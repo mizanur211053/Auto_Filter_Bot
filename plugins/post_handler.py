@@ -30,19 +30,12 @@ TEMPLATES = {
 🎭 <b>Genre:</b> {genres}
 💬 <b>Plot:</b> {plot}""",
     "my_style": """╔═══❰ 𝙉𝙚𝙬 𝙍𝙚𝙡𝙚𝙖𝙨𝙚 ❱═══❍
-
 ║╭━━━━━━━━━━━━━━━➣
-
 ║┣⪼𖣘 𝐌𝐨𝐯𝐢𝐞: {title} {year}
-
 ║┣⪼𖣘 𝐆𝐞𝐧𝐫𝐞𝐬: {genres}
-
 ║┣⪼𖣘 𝐋𝐚𝐧𝐠: {langs}
-
 ║┣⪼𖣘 𝐑𝐚𝐭𝐢𝐧𝐠: {rating}
-
 ║╰━━━━━━━━━━━━━━━➣
-
 ╚═════════════════❍""",
     "minimalist": """🎬 <b>{title}</b>
 🗓 <b>Year:</b> {year}
