@@ -202,32 +202,38 @@ async def _build_final_post_content(session: dict, session_id: int):
     if not movie_details:
         return None, None, None
 
+    # ভেরিয়েবলগুলো ডিফাইন করা হচ্ছে যাতে টেমপ্লেটে এরর না হয়
+    title = movie_details.get("title", "N/A")
+    year = movie_details.get("year", "N/A")
+    rating = movie_details.get("rating", "N/A")
+    genres = ", ".join(movie_details.get("genres", [])) if movie_details.get("genres") else "N/A"
+    plot = movie_details.get("plot", "N/A")
+    langs = ", ".join(session.get("custom_languages")) if session.get("custom_languages") else "N/A"
+    resolutions = ", ".join(session.get("custom_resolutions")) if session.get("custom_resolutions") else "N/A"
+    otts = ", ".join(session.get("custom_otts")) if session.get("custom_otts") else "N/A"
+
     if not session.get("caption"):
+        # সবগুলো ভেরিয়েবল এখন এখানে পাস করা হচ্ছে
         session["caption"] = TEMPLATES[session["active_template"]].format(
-            title=movie_details.get("title", "N/A"), year=movie_details.get("year", "N/A"),
-            rating=movie_details.get("rating", "N/A"),
-            genres=", ".join(movie_details.get("genres", [])
-                             if movie_details.get("genres") else []),
-            plot=movie_details.get("plot", "N/A"),
+            title=title, 
+            year=year,
+            rating=rating,
+            genres=genres,
+            plot=plot,
+            langs=langs,
+            resolutions=resolutions,
+            otts=otts
         )
 
     final_caption = session["caption"]
-    if session.get("custom_languages"):
-        final_caption += session["lang_format"].format(
-            langs=', '.join(session['custom_languages']))
-    if session.get("custom_resolutions"):
-        final_caption += session["res_format"].format(
-            resolutions=', '.join(session['custom_resolutions']))
-    if session.get("custom_otts"):
-        final_caption += session["ott_format"].format(
-            otts=', '.join(session['custom_otts']))
+    
+    # ওয়াটারমার্ক থাকলে তা ক্যাপশনের নিচে যুক্ত হবে
     if session.get("watermark"):
         final_caption += f"\n\n{session['watermark']}"
 
     keyboard = build_keyboard(session, session_id)
     poster_to_use = session.get("custom_poster") or \
-        (movie_details.get("backdrop_url") if session.get(
-            "use_landscape") else movie_details.get("poster_url"))
+        (movie_details.get("backdrop_url") if session.get("use_landscape") else movie_details.get("poster_url"))
 
     return final_caption, keyboard, poster_to_use
 
