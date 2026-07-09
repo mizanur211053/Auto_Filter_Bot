@@ -173,7 +173,7 @@ async def start_post_session(client: Client, message: Message, user_id: int, mov
         "watermark": DEFAULT_WATERMARK,
         "lang_format": LANGUAGES_FORMAT,
         "ott_format": OTT_FORMAT,
-        "res_format": RESOLUTIONS_FORMAT, "active_template": "divider_list",
+        "res_format": RESOLUTIONS_FORMAT, "active_template": "my_style",
         "movie_details": movie_details
     }
 
