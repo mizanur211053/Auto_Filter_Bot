@@ -503,11 +503,11 @@ This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Co
 👉  /plan .</i></b>"""
     
 
-    VERIFY_COMPLETE_TEXT = """<b><i>👋 ʜᴇʏ {},
+    VERIFY_COMPLETE_TEXT = """<b><i>👋 হ্যালো {},
 
-ʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴛʜᴇ 1ꜱᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ✓
+আপনার ১ম ভেরিফিকেশন সম্পন্ন হয়েছে ✓
 
-ɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ꜰᴏʀ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ.</i></b>"""
+এখন আপনি পরবর্তী ভেরিফিকেশন পর্যন্ত আনলিমিটেড অ্যাক্সেস পাবেন। .</i></b>"""
 
     SECOND_VERIFICATION_TEXT = """<b><i>👋 ʜᴇʏ {},
 
