@@ -66,7 +66,7 @@ async def give_filter(client, message):
         await message.reply_text(
             script.ALREADY_AVAILABLE_TXT.format(message.from_user.mention, total_results, search),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("🔍 ᴊᴏɪɴ ᴀɴᴅ ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url=GRP_LNK)]])
+                [[InlineKeyboardButton("🔍এখানে জয়েন হোন আর সার্চ করুন🔎", url=GRP_LNK)]])
         )
 
 
