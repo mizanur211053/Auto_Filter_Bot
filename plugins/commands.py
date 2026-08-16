@@ -52,7 +52,7 @@ async def start(client, message):
             if not verify_id_info or verify_id_info["verified"]:
                 return await message.reply(script.LINK_EXPIRED_TXT)  
 
-            ist_timezone = pytz.timezone('Asia/Kolkata')
+            ist_timezone = pytz.timezone('Asia/Dhaka')
             if await db.user_verified(user_id):
                 key = "third_time_verified"
             else:
