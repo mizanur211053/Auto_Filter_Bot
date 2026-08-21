@@ -107,12 +107,12 @@ async def start(client, message):
             await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
         if len(message.command) != 2:
             buttons = [[
-                        InlineKeyboardButton('°•Buy Premium Subscription•°', url=f'https://t.me/{temp.U_NAME}?start=premium')
+                        InlineKeyboardButton('°👑•Buy Premium Subscription•👑°', url=f'https://t.me/{temp.U_NAME}?start=premium')
                     ],[
                         InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
                         InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
                     ],[
-                        InlineKeyboardButton('👥ʀᴇꜰᴇʀ ꜰʀɪᴇɴᴅꜱ', callback_data="reffff"),
+                        InlineKeyboardButton('ʀᴇꜰᴇʀ ꜰʀɪᴇɴᴅꜱ👥', callback_data="reffff"),
                         InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
                     ]]
             reply_markup = InlineKeyboardMarkup(buttons)
@@ -140,12 +140,12 @@ async def start(client, message):
 
         if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
             buttons = [[
-                        InlineKeyboardButton('°•Buy Premium Subscription•°', url=f'https://t.me/{temp.U_NAME}?start=premium')
+                        InlineKeyboardButton('°👑•Buy Premium Subscription•👑°', url=f'https://t.me/{temp.U_NAME}?start=premium')
                     ],[
                         InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
                         InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
                     ],[
-                        InlineKeyboardButton('👥ᴇꜰᴇʀ ꜰʀɪᴇɴᴅꜱ', callback_data="reffff"),
+                        InlineKeyboardButton('ʀᴇꜰᴇʀ ꜰʀɪᴇɴᴅꜱ👥', callback_data="reffff"),
                         InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
                     ]]
             reply_markup = InlineKeyboardMarkup(buttons)
