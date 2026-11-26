@@ -35,9 +35,9 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # Pyrogram session name
-SESSION = environ.get('SESSION', 'movixuniverse_search')
-SESSION_NAME = str(environ.get('SESSION_NAME', 'dreamXBotz'))
-name = str(environ.get('name', 'DREAMXBOTZ'))
+SESSION = environ.get('SESSION', 'Movixuniverse_search')
+SESSION_NAME = str(environ.get('SESSION_NAME', 'Movixuniverse'))
+name = str(environ.get('name', 'MOVIXUNIVERSE'))
 
 
 # ==============================================================================
@@ -58,9 +58,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 # Support Group & Request Channel
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-100')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/movixuniverse_group')
 
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-100')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1004493171050')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 
@@ -76,9 +76,9 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
 
 # Social & Community Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/dreamxbotz')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/dreamxbotz')
-UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/dreamxbotz')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movixuniverse_search_group')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Mizanur_Rahman41')
+UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/Movixuniverse')
 
 
 # ==============================================================================
@@ -127,8 +127,8 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")                           # Max buttons 
 AUTO_FFILTER = is_enabled(environ.get('AUTO_FFILTER', "True"), True)
 AUTO_DELETE = is_enabled(environ.get('AUTO_DELETE', "True"), True)
 USE_CAPTION_FILTER = is_enabled(environ.get('USE_CAPTION_FILTER', "True"), True)
-INDEX_CAPTION = is_enabled(environ.get('SAVE_CAPTION', "True"), True)
-COVERX = is_enabled(environ.get('COVERX', "True"), True)
+INDEX_CAPTION = is_enabled(environ.get('SAVE_CAPTION', "False"), False)
+COVERX = is_enabled(environ.get('COVERX', "False"), False)
 PROTECT_CONTENT = is_enabled(environ.get('PROTECT_CONTENT', "False"), False)
 PM_SEARCH = is_enabled(environ.get('PM_SEARCH', "True"), True)
 EMOJI_MODE = is_enabled(environ.get('EMOJI_MODE', "True"), True)
@@ -138,7 +138,7 @@ MAX_BTN = is_enabled(environ.get('MAX_BTN', "True"), True)
 NO_RESULTS_MSG = is_enabled(environ.get("NO_RESULTS_MSG", "True"), True)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MELCOW_NEW_USERS = is_enabled(environ.get('MELCOW_NEW_USERS', "False"), False)
-ULTRA_FAST_MODE = is_enabled(environ.get('ULTRA_FAST_MODE'), False)
+ULTRA_FAST_MODE = is_enabled(environ.get('ULTRA_FAST_MODE', "False"), False)
 MAINTENANCE = is_enabled(environ.get('MAINTENANCE', "False"), False)
 
 # Captions & Alerts
@@ -180,42 +180,42 @@ BAD_WORDS = {
 # ==============================================================================
 # 6. MOVIE UPDATES & POSTER NOTIFICATIONS
 # ==============================================================================
-MOVIE_UPDATE_NOTIFICATION = is_enabled(environ.get('MOVIE_UPDATE_NOTIFICATION', "False"), False)
+MOVIE_UPDATE_NOTIFICATION = is_enabled(environ.get('MOVIE_UPDATE_NOTIFICATION', "True"), True)
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-100'))
-DREAMXBOTZ_IMAGE_FETCH = is_enabled(environ.get('DREAMXBOTZ_IMAGE_FETCH', "True"), True)
+DREAMXBOTZ_IMAGE_FETCH = is_enabled(environ.get('DREAMXBOTZ_IMAGE_FETCH', "False"), False)
 LINK_PREVIEW = is_enabled(environ.get('LINK_PREVIEW', "False"), False)
 ABOVE_PREVIEW = is_enabled(environ.get('ABOVE_PREVIEW', "True"), True)
 
 # The Movie Database (TMDB) API Key
 TMDB_API_KEY = environ.get('TMDB_API_KEY', '')
-TMDB_POSTER = is_enabled(environ.get('TMDB_POSTER', "True"), True)
+TMDB_POSTER = is_enabled(environ.get('TMDB_POSTER', "False"), False)
 TMDB_ON_SEARCH = is_enabled(environ.get('TMDB_ON_SEARCH', "False"), False)
-LANDSCAPE_POSTER = is_enabled(environ.get('LANDSCAPE_POSTER', "True"), True)
+LANDSCAPE_POSTER = is_enabled(environ.get('LANDSCAPE_POSTER', "False"), False)
 
 
 # ==============================================================================
 # 7. SHORTENERS & VERIFICATION SYSTEM
 # ==============================================================================
-IS_VERIFY = is_enabled(environ.get('IS_VERIFY', 'False'), False)
+IS_VERIFY = is_enabled(environ.get('IS_VERIFY', 'True'), True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-100'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
 # Tutorial Links
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/dreamxbotz")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/dreamxbotz")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/dreamxbotz")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Movixuniverse")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Movixuniverse")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Movixuniverse")
 
 # Primary Shortener
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "")
-SHORTENER_API = environ.get("SHORTENER_API", "")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "nanolinks.in")
+SHORTENER_API = environ.get("SHORTENER_API", "69f7e49b83af44a6c10c2e2a6f2ede93b1f79ef9")
 
 # Secondary Shortener
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "nanolinks.in")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "69f7e49b83af44a6c10c2e2a6f2ede93b1f79ef9")
 
 # Tertiary Shortener
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "nanolinks.in")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "69f7e49b83af44a6c10c2e2a6f2ede93b1f79ef9")
 
 # Verification Time Gaps (in seconds)
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))       # 20 minutes
@@ -225,8 +225,8 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))   # 15 hours
 # ==============================================================================
 # 8. PREMIUM PLANS & PAYMENT CONFIGURATION
 # ==============================================================================
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/e419f801841c2ee3db0fc.jpg')
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'ɴᴏ ᴀᴠᴀɪʟᴀʙʟᴇ ʀɪɢʜᴛ ɴᴏᴡ')
+QR_CODE = environ.get('QR_CODE', 'https://t.me/Mizanur_Rahman41')
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '01909443351')
 
 # Stars / Premium Pricing Structure {Amount: "Duration"}
 STAR_PREMIUM_PLANS = {
@@ -242,17 +242,17 @@ STAR_PREMIUM_PLANS = {
 # 9. SERVER, STREAMING & WEB SETTINGS
 # ==============================================================================
 # Streaming Mode (Keep False on Render free tier to conserve bandwidth)
-STREAM_MODE = is_enabled(environ.get('STREAM_MODE', "False"), False)
-PREMIUM_STREAM_MODE = is_enabled(environ.get('PREMIUM_STREAM_MODE', "False"), False)
+STREAM_MODE = is_enabled(environ.get('STREAM_MODE', "True"), True)
+PREMIUM_STREAM_MODE = is_enabled(environ.get('PREMIUM_STREAM_MODE', "True"), True)
 
 # Server Binding & Host Configuration
 ON_HEROKU = 'DYNO' in environ
 APP_NAME = environ.get('APP_NAME', None) if ON_HEROKU else None
-PORT = int(environ.get("PORT", "8080"))
+PORT = int(environ.get("PORT", "7860"))
 BIND_ADDRESS = getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0')
 
 FQDN = (
-    environ.get('FQDN', BIND_ADDRESS)
+    environ.get('FQDN', 'mizanur211053-movixuniverse-search-bot.hf.space')
     if not ON_HEROKU or environ.get('FQDN')
     else f"{APP_NAME}.herokuapp.com"
 )
@@ -273,11 +273,7 @@ SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "298"))          # Keep-alive ping interval (seconds)
 
 # Reaction Emojis
-REACTIONS = [
-    "🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱",
-    "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎",
-    "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"
-]
+REACTIONS = ["🤝"]
 
 
 # ==============================================================================
